@@ -1,0 +1,22 @@
+<configuration>
+    <input>
+        <net-file value="sumo1.net.xml"/>
+        <route-files value="sumo1.rou.xml"/>
+	
+	<time-to-teleport value="-1"/>
+	<max-num-vehicles value="50"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="1000"/>
+        <step-length value="0.1"/>
+    </time>
+    <report>
+        <no-step-log value="true"/>
+    </report>
+
+    <gui_only>
+        <start value="true"/>
+    </gui_only>
+
+</configuration>

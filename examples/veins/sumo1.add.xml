@@ -1,0 +1,96 @@
+<additionals>
+    <rerouter id="rerouter_ce_ec" edges="ce" probability="1.0">	
+		<interval end="1000">
+		   <destProbReroute id="ec"/>
+		</interval>
+	</rerouter>
+    <rerouter id="rerouter_cw_wc" edges="cw" probability="1.0">
+		<interval end="1000">
+		   <destProbReroute id="wc"/>
+		</interval>
+	</rerouter>
+    <rerouter id="rerouter_cs_sc" edges="cs" probability="1.0">	
+		<interval end="1000">
+		   <destProbReroute id="sc"/>
+		</interval>
+	</rerouter>
+    <rerouter id="rerouter_cn_nc" edges="cn" probability="1.0">
+		<interval end="1000">
+		   <destProbReroute id="nc"/>
+		</interval>
+	</rerouter>
+
+
+    <rerouter id="rerouter_wc_ce" edges="wc" probability="0.6">	
+		<interval end="1000">
+		   <destProbReroute id="ce"/>
+		</interval>
+	</rerouter>
+    <rerouter id="rerouter_wc_cs" edges="wc" probability="0.2">
+		<interval end="1000">
+		   <destProbReroute id="cs"/>
+		</interval>
+	</rerouter>
+    <rerouter id="rerouter_wc_cn" edges="wc" probability="0.2">	
+		<interval end="1000">
+		   <destProbReroute id="cn"/>
+		</interval>
+	</rerouter>
+
+
+
+    <rerouter id="rerouter_ec_cw" edges="ec" probability="0.6">	
+		<interval end="1000">
+		   <destProbReroute id="cw"/>
+		</interval>
+	</rerouter>
+    <rerouter id="rerouter_ec_cs" edges="ec" probability="0.2">
+		<interval end="1000">
+		   <destProbReroute id="cs"/>
+		</interval>
+	</rerouter>
+    <rerouter id="rerouter_ec_cn" edges="ec" probability="0.2">	
+		<interval end="1000">
+		   <destProbReroute id="cn"/>
+		</interval>
+	</rerouter>
+
+
+
+  <rerouter id="rerouter_nc_cs" edges="nc" probability="0.6">	
+		<interval end="1000">
+		   <destProbReroute id="cs"/>
+		</interval>
+	</rerouter>
+    <rerouter id="rerouter_nc_cw" edges="nc" probability="0.2">
+		<interval end="1000">
+		   <destProbReroute id="cw"/>
+		</interval>
+	</rerouter>
+    <rerouter id="rerouter_nc_ce" edges="nc" probability="0.2">	
+		<interval end="1000">
+		   <destProbReroute id="ce"/>
+		</interval>
+	</rerouter>
+
+
+  <rerouter id="rerouter_sc_cn" edges="sc" probability="0.6">	
+		<interval end="1000">
+		   <destProbReroute id="cn"/>
+		</interval>
+	</rerouter>
+    <rerouter id="rerouter_sc_cw" edges="sc" probability="0.2">
+		<interval end="1000">
+		   <destProbReroute id="cw"/>
+		</interval>
+	</rerouter>
+    <rerouter id="rerouter_sc_ce" edges="sc" probability="0.2">	
+		<interval end="1000">
+		   <destProbReroute id="ce"/>
+		</interval>
+	</rerouter>
+
+
+
+
+</additionals>

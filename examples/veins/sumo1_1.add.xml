@@ -1,0 +1,58 @@
+<additionals>
+    <rerouter id="rerouter_ce_ec" edges="ce" probability="1.0">	
+		<interval end="1000">
+		   <destProbReroute id="ec"/>
+		</interval>
+	</rerouter>
+    <rerouter id="rerouter_cw_wc" edges="cw" probability="1.0">
+		<interval end="1000">
+		   <destProbReroute id="wc"/>
+		</interval>
+	</rerouter>
+    <rerouter id="rerouter_cs_sc" edges="cs" probability="1.0">	
+		<interval end="1000">
+		   <destProbReroute id="sc"/>
+		</interval>
+	</rerouter>
+    <rerouter id="rerouter_cn_nc" edges="cn" probability="1.0">
+		<interval end="1000">
+		   <destProbReroute id="nc"/>
+		</interval>
+	</rerouter>
+
+
+    <rerouter id="rerouter_wc_ce" edges="wc" probability="1.0">	
+		<interval end="1000">
+		   <destProbReroute id="ce"/>
+		</interval>
+	</rerouter>
+   
+
+
+
+    <rerouter id="rerouter_ec_cw" edges="ec" probability="1.0">	
+		<interval end="1000">
+		   <destProbReroute id="cw"/>
+		</interval>
+	</rerouter>
+    
+
+
+
+  <rerouter id="rerouter_nc_cs" edges="nc" probability="1.0">	
+		<interval end="1000">
+		   <destProbReroute id="cs"/>
+		</interval>
+	</rerouter>
+  
+
+
+  <rerouter id="rerouter_sc_cn" edges="sc" probability="1.0">	
+		<interval end="1000">
+		   <destProbReroute id="cn"/>
+		</interval>
+	</rerouter> 
+
+
+
+</additionals>

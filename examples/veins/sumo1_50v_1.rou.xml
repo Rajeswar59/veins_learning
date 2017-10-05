@@ -1,0 +1,69 @@
+<routes>
+    <vType accel="1.0" decel="5.0" speedDev="0.1" id="Car1" length="2.0" maxSpeed="100.0" sigma="0.0" color="1,0,0"/>
+    <route id="we" edges="wc ce ec cw wc ce ec cw wc ce ec cw wc ce ec cw wc ce ec cw"/>     
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="1_veh00" route="we" type="Car1" />
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="1_veh01" route="we" type="Car1" />
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="1_veh02" route="we" type="Car1" />
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="1_veh03" route="we" type="Car1" />
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="1_veh04" route="we" type="Car1" />
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="1_veh05" route="we" type="Car1" />
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="1_veh06" route="we" type="Car1" />
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="1_veh07" route="we" type="Car1" />
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="1_veh08" route="we" type="Car1" />
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="1_veh09" route="we" type="Car1" />
+    
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="1_veh10" route="we" type="Car1" />
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="1_veh11" route="we" type="Car1" />
+
+    <vType accel="1.0" decel="5.0" speedDev="0.1" id="Car2" length="2.0" maxSpeed="100.0" sigma="0.0" color="0,1,0"/>
+    <route id="ew" edges="ec cw wc ce ec cw wc ce ec cw wc ce ec cw wc ce ec cw wc ce"/>
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="2_veh00" route="ew" type="Car2" />
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="2_veh01" route="ew" type="Car2" />
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="2_veh02" route="ew" type="Car2" />
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="2_veh03" route="ew" type="Car2" />
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="2_veh04" route="ew" type="Car2" />
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="2_veh05" route="ew" type="Car2" />
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="2_veh06" route="ew" type="Car2" />
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="2_veh07" route="ew" type="Car2" />
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="2_veh08" route="ew" type="Car2" />
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="2_veh09" route="ew" type="Car2" />
+    
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="2_veh10" route="ew" type="Car2" />
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="2_veh11" route="ew" type="Car2" />
+
+    <vType accel="1.0" decel="5.0" speedDev="0.1" id="Car3" length="2.0" maxSpeed="100.0" sigma="0.0" color="0,0,1" />
+    <route id="sn" edges="sc cn nc cs sc cn nc cs sc cn nc cs sc cn nc cs sc cn nc cs"/>
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="3_veh00" route="sn" type="Car3" />
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="3_veh01" route="sn" type="Car3" />
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="3_veh02" route="sn" type="Car3" />
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="3_veh03" route="sn" type="Car3" />
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="3_veh04" route="sn" type="Car3" />
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="3_veh05" route="sn" type="Car3" />
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="3_veh06" route="sn" type="Car3" />
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="3_veh07" route="sn" type="Car3" />
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="3_veh08" route="sn" type="Car3" />
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="3_veh09" route="sn" type="Car3" />
+    
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="3_veh10" route="sn" type="Car3" />
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="3_veh11" route="sn" type="Car3" />
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="3_veh12" route="sn" type="Car3" />
+ 
+    <vType accel="1.0" decel="5.0" speedDev="0.1" id="Car4" length="2.0" maxSpeed="100.0" sigma="0.0" color="1,1,0" />
+    <route id="ns" edges="nc cs sc cn nc cs sc cn nc cs sc cn nc cs sc cn nc cs sc cn"/>
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="4_veh00" route="ns" type="Car4" />
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="4_veh01" route="ns" type="Car4" />
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="4_veh02" route="ns" type="Car4" />
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="4_veh03" route="ns" type="Car4" />
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="4_veh04" route="ns" type="Car4" />
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="4_veh05" route="ns" type="Car4" />
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="4_veh06" route="ns" type="Car4" />
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="4_veh07" route="ns" type="Car4" />
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="4_veh08" route="ns" type="Car4" />
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="4_veh09" route="ns" type="Car4" />
+    
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="4_veh10" route="ns" type="Car4" />
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="4_veh11" route="ns" type="Car4" />
+    <vehicle departSpeed="max" arrivalPos="max" departPos="random_free" departLane="best" depart="0" id="4_veh12" route="ns" type="Car4" />
+
+</routes>
+

@@ -1,0 +1,6 @@
+<shapes>
+  	<poly id="poly0" type="building" color="1,0,0" fill="true" layer="-1" shape="310,110 590,110 590,290 310,290 "/>
+	<poly id="poly1" type="building" color="0,1,0" fill="true" layer="-1" shape="610,290 610,110 890,110 890,290 "/>
+	<poly id="poly2" type="building" color="0,0,1" fill="true" layer="-1" shape="310,310 590,310 590,490 310,490"/>
+	<poly id="poly3" type="building" color="1,1,0" fill="true" layer="-1" shape="610,310 890,310 890,490 610,490 "/>
+</shapes>  
